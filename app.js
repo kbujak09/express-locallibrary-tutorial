@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 require('dotenv').config();
 const helmet = require('helmet');
+const compression = require('compression');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
